@@ -1,33 +1,18 @@
 import Papa from 'papaparse';
 
-const parseCSV = (filepath) => {
-    return new Promise((resolve, reject) => {
-        Papa.parse(filepath, {
-            download: true,
-            header: true,
-            dynamicTyping: true,
-            complete: (results) => {
-                resolve(results.data);
-            },
-            error: (error) => {
-                reject(error.message);
-            },
-        });
+const parseCSV = (csvFile) => {
+  return new Promise((resolve, reject) => {
+    Papa.parse(csvFile, {
+      header: true,
+      complete: (results) => {
+        console.log(results.data);
+        resolve(results.data);
+      },
+      error: (error) => {
+        reject(error);
+      },
     });
+  });
 };
 
-export const getAllYearsMHData = async(filePaths) => {
-    try {
-        const allData = [];
-
-        for(const filepath of filePaths){
-            const data = await parseCSV(filepath);
-            allData.push(...data);
-        }
-
-        return allData;
-    } catch (error){
-        throw new Error('Error parsing csv: ' + error);
-    }
-};
-
+export default parseCSV;

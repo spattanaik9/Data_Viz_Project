@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-
+// import parseCSV  from './CSVHandler';
+import Papa from 'papaparse';
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import { scaleQuantize } from "d3-scale";
+import TableauEmbed from './components/TableauEmbed';
+import GdpComponent from './components/GdpComponent';
+  
 const App = () => {
 
   const [selectedVariables, setSelectedVariables] = useState({ first: 'gdp', second: 'mental_illness'});
-
+  
   const handleVariableChange = (e, position) => {
     if (position === 'first'){
       setSelectedVariables({ ...selectedVariables, first: e.target.value });
@@ -57,14 +63,28 @@ const App = () => {
   },
   ];
 
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('csv/GDP_By_Industry.csv');
+      const text = await response.text();
+      const result = Papa.parse(text, { header: true });
+      setData(result.data);
+    };
+
+    fetchData();
+  }, []);
+
+
   return (
     
     <div className="App">
       <div>
-      <h1>The Streaming Balance: Unveiling Economic Trends, OTT Platforms, and Mental Health Insights</h1>
-      <p>
-        Exploring data trends across various socioeconomic factors from 2016 to 2022 to understand the impact of the COVID-19 pandemic on key indicators like GDP, mental health, employment, and more. 
-      </p>
+        <h1>The Streaming Balance: Unveiling Economic Trends, OTT Platforms, and Mental Health Insights</h1>
+        <p>
+          Exploring data trends across various socioeconomic factors from 2016 to 2022 to understand the impact of the COVID-19 pandemic on key indicators like GDP, mental health, employment, and more. 
+        </p>
       </div>
       
       <div>
@@ -99,6 +119,22 @@ const App = () => {
           <Line yAxisId="left" type="monotone" dataKey={selectedVariables.first} stroke="#8884d8" activeDot={{ r: 8 }} />
           <Line yAxisId="right" type="monotone" dataKey={selectedVariables.second} stroke="#82ca9d" />
         </LineChart>
+      </div>
+
+      <div>
+        <TableauEmbed />
+      </div>
+
+      <h1>GDP - Industry</h1>
+      <div className="chart-container">
+        <div className="chart">
+          <h2>Private Sector</h2>
+          <GdpComponent data={data} sector="private" />
+        </div>
+        <div className="chart">
+          <h2>Government Sector</h2>
+          <GdpComponent data={data} sector="Government" />
+        </div>
       </div>
       
     </div>

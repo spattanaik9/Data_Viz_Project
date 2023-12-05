@@ -1,0 +1,421 @@
+﻿Industry,Sector,Sub sector,Sub-Sub sector,% of GDP,Year
+Farms,private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.7,2017
+"Forestry, fishing, and related activities",private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.2,2017
+Oil and gas extraction,private,Mining,Mining,0.8,2017
+"Mining, except oil and gas",private,Mining,Mining,0.3,2017
+Support activities for mining,private,Mining,Mining,0.3,2017
+Utilities,private,Utilities,Utilities,1.6,2017
+Construction,private,Construction,Construction,4.3,2017
+Wood products,private,Manufacturing,Durable goods,0.2,2017
+Nonmetallic mineral products,private,Manufacturing,Durable goods,0.3,2017
+Primary metals,private,Manufacturing,Durable goods,0.3,2017
+Fabricated metal products,private,Manufacturing,Durable goods,0.7,2017
+Machinery,private,Manufacturing,Durable goods,0.8,2017
+Computer and electronic products,private,Manufacturing,Durable goods,1.3,2017
+"Electrical equipment, appliances, and components",private,Manufacturing,Durable goods,0.3,2017
+"Motor vehicles, bodies and trailers, and parts",private,Manufacturing,Durable goods,0.8,2017
+Other transportation equipment,private,Manufacturing,Durable goods,0.8,2017
+Furniture and related products,private,Manufacturing,Durable goods,0.1,2017
+Miscellaneous manufacturing,private,Manufacturing,Durable goods,0.4,2017
+Food and beverage and tobacco products,private,Manufacturing,Nondurable goods,1.4,2017
+Textile mills and textile product mills,private,Manufacturing,Nondurable goods,0.1,2017
+Apparel and leather and allied products,private,Manufacturing,Nondurable goods,0,2017
+Paper products,private,Manufacturing,Nondurable goods,0.3,2017
+Printing and related support activities,private,Manufacturing,Nondurable goods,0.2,2017
+Petroleum and coal products,private,Manufacturing,Nondurable goods,0.6,2017
+Chemical products,private,Manufacturing,Nondurable goods,1.8,2017
+Plastics and rubber products,private,Manufacturing,Nondurable goods,0.4,2017
+Wholesale trade,private,Wholesale trade,Wholesale trade,6,2017
+Motor vehicle and parts dealers,private,Retail trade,Retail trade,1.2,2017
+Food and beverage stores,private,Retail trade,Retail trade,0.8,2017
+General merchandise stores,private,Retail trade,Retail trade,0.8,2017
+Other retail,private,Retail trade,Retail trade,3.2,2017
+Air transportation,private,Transportation and warehousing,Transportation and warehousing,0.7,2017
+Rail transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2017
+Water transportation,private,Transportation and warehousing,Transportation and warehousing,0.1,2017
+Truck transportation,private,Transportation and warehousing,Transportation and warehousing,0.9,2017
+Transit and ground passenger transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2017
+Pipeline transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2017
+Other transportation and support activities,private,Transportation and warehousing,Transportation and warehousing,0.6,2017
+Warehousing and storage,private,Transportation and warehousing,Transportation and warehousing,0.3,2017
+"Publishing industries, except internet (includes software)",private,Information,Information,1.2,2017
+Motion picture and sound recording industries,private,Information,Information,0.5,2017
+Broadcasting and telecommunications,private,Information,Information,2.4,2017
+"Data processing, internet publishing, and other information services",private,Information,Information,1.1,2017
+"Federal Reserve banks, credit intermediation, and related activities",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3.3,2017
+"Securities, commodity contracts, and investments",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,1.4,2017
+Insurance carriers and related activities,private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,2.9,2017
+"Funds, trusts, and other financial vehicles",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,0,2017
+Real estate,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,11.8,2017
+Rental and leasing services and lessors of intangible assets,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,1.1,2017
+Legal services,private,Professional and business services,"Professional, scientific, and technical services",1.4,2017
+Computer systems design and related services,private,Professional and business services,"Professional, scientific, and technical services",1.7,2017
+"Miscellaneous professional, scientific, and technical services",private,Professional and business services,"Professional, scientific, and technical services",4.4,2017
+Management of companies and enterprises,private,Professional and business services,Management of companies and enterprises,1.9,2017
+Administrative and support services,private,Professional and business services,Administrative and waste management services,2.8,2017
+Waste management and remediation services,private,Professional and business services,Administrative and waste management services,0.3,2017
+Educational services,private,"Educational services, health care, and social assistance",Educational services,1.3,2017
+Ambulatory health care services,private,"Educational services, health care, and social assistance",Health care and social assistance,3.6,2017
+Hospitals,private,"Educational services, health care, and social assistance",Health care and social assistance,2.5,2017
+Nursing and residential care facilities,private,"Educational services, health care, and social assistance",Health care and social assistance,0.8,2017
+Social assistance,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2017
+"Performing arts, spectator sports, museums, and related activities",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.6,2017
+"Amusements, gambling, and recreation industries",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.4,2017
+Accommodation,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.9,2017
+Food services and drinking places,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",2.2,2017
+"Other services, except government",private,"Other services, except government","Other services, except government",2.2,2017
+National defense,Government,Federal,General government,2.1,2017
+Nondefense,Government,Federal,General government,1.5,2017
+Government enterprises,Government,Federal,Government enterprises,0.3,2017
+General government,Government,State and local,State and local,7.9,2017
+Government enterprises,Government,State and local,State and local,0.7,2017
+Farms,private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.7,2018
+"Forestry, fishing, and related activities",private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.2,2018
+Oil and gas extraction,private,Mining,Mining,0.9,2018
+"Mining, except oil and gas",private,Mining,Mining,0.3,2018
+Support activities for mining,private,Mining,Mining,0.3,2018
+Utilities,private,Utilities,Utilities,1.6,2018
+Construction,private,Construction,Construction,4.3,2018
+Wood products,private,Manufacturing,Durable goods,0.2,2018
+Nonmetallic mineral products,private,Manufacturing,Durable goods,0.3,2018
+Primary metals,private,Manufacturing,Durable goods,0.3,2018
+Fabricated metal products,private,Manufacturing,Durable goods,0.7,2018
+Machinery,private,Manufacturing,Durable goods,0.7,2018
+Computer and electronic products,private,Manufacturing,Durable goods,1.3,2018
+"Electrical equipment, appliances, and components",private,Manufacturing,Durable goods,0.3,2018
+"Motor vehicles, bodies and trailers, and parts",private,Manufacturing,Durable goods,0.8,2018
+Other transportation equipment,private,Manufacturing,Durable goods,0.8,2018
+Furniture and related products,private,Manufacturing,Durable goods,0.1,2018
+Miscellaneous manufacturing,private,Manufacturing,Durable goods,0.4,2018
+Food and beverage and tobacco products,private,Manufacturing,Nondurable goods,1.3,2018
+Textile mills and textile product mills,private,Manufacturing,Nondurable goods,0.1,2018
+Apparel and leather and allied products,private,Manufacturing,Nondurable goods,0,2018
+Paper products,private,Manufacturing,Nondurable goods,0.3,2018
+Printing and related support activities,private,Manufacturing,Nondurable goods,0.2,2018
+Petroleum and coal products,private,Manufacturing,Nondurable goods,0.7,2018
+Chemical products,private,Manufacturing,Nondurable goods,1.9,2018
+Plastics and rubber products,private,Manufacturing,Nondurable goods,0.4,2018
+Wholesale trade,private,Wholesale trade,Wholesale trade,5.9,2018
+Motor vehicle and parts dealers,private,Retail trade,Retail trade,1.2,2018
+Food and beverage stores,private,Retail trade,Retail trade,0.8,2018
+General merchandise stores,private,Retail trade,Retail trade,0.8,2018
+Other retail,private,Retail trade,Retail trade,3.2,2018
+Air transportation,private,Transportation and warehousing,Transportation and warehousing,0.6,2018
+Rail transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2018
+Water transportation,private,Transportation and warehousing,Transportation and warehousing,0.1,2018
+Truck transportation,private,Transportation and warehousing,Transportation and warehousing,0.9,2018
+Transit and ground passenger transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2018
+Pipeline transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2018
+Other transportation and support activities,private,Transportation and warehousing,Transportation and warehousing,0.6,2018
+Warehousing and storage,private,Transportation and warehousing,Transportation and warehousing,0.3,2018
+"Publishing industries, except internet (includes software)",private,Information,Information,1.2,2018
+Motion picture and sound recording industries,private,Information,Information,0.5,2018
+Broadcasting and telecommunications,private,Information,Information,2.3,2018
+"Data processing, internet publishing, and other information services",private,Information,Information,1.1,2018
+"Federal Reserve banks, credit intermediation, and related activities",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3.3,2018
+"Securities, commodity contracts, and investments",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,1.4,2018
+Insurance carriers and related activities,private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,2.9,2018
+"Funds, trusts, and other financial vehicles",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,0,2018
+Real estate,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,11.9,2018
+Rental and leasing services and lessors of intangible assets,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,1.1,2018
+Legal services,private,Professional and business services,"Professional, scientific, and technical services",1.3,2018
+Computer systems design and related services,private,Professional and business services,"Professional, scientific, and technical services",1.7,2018
+"Miscellaneous professional, scientific, and technical services",private,Professional and business services,"Professional, scientific, and technical services",4.5,2018
+Management of companies and enterprises,private,Professional and business services,Management of companies and enterprises,1.9,2018
+Administrative and support services,private,Professional and business services,Administrative and waste management services,2.8,2018
+Waste management and remediation services,private,Professional and business services,Administrative and waste management services,0.3,2018
+Educational services,private,"Educational services, health care, and social assistance",Educational services,1.2,2018
+Ambulatory health care services,private,"Educational services, health care, and social assistance",Health care and social assistance,3.6,2018
+Hospitals,private,"Educational services, health care, and social assistance",Health care and social assistance,2.4,2018
+Nursing and residential care facilities,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2018
+Social assistance,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2018
+"Performing arts, spectator sports, museums, and related activities",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.7,2018
+"Amusements, gambling, and recreation industries",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.4,2018
+Accommodation,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.9,2018
+Food services and drinking places,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",2.2,2018
+"Other services, except government",private,"Other services, except government","Other services, except government",2.2,2018
+National defense,Government,Federal,General government,2,2018
+Nondefense,Government,Federal,General government,1.5,2018
+Government enterprises,Government,Federal,Government enterprises,0.3,2018
+General government,Government,State and local,State and local,7.8,2018
+Government enterprises,Government,State and local,State and local,0.7,2018
+Farms,private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.6,2019
+"Forestry, fishing, and related activities",private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.2,2019
+Oil and gas extraction,private,Mining,Mining,0.8,2019
+"Mining, except oil and gas",private,Mining,Mining,0.2,2019
+Support activities for mining,private,Mining,Mining,0.3,2019
+Utilities,private,Utilities,Utilities,1.5,2019
+Construction,private,Construction,Construction,4.4,2019
+Wood products,private,Manufacturing,Durable goods,0.2,2019
+Nonmetallic mineral products,private,Manufacturing,Durable goods,0.3,2019
+Primary metals,private,Manufacturing,Durable goods,0.3,2019
+Fabricated metal products,private,Manufacturing,Durable goods,0.7,2019
+Machinery,private,Manufacturing,Durable goods,0.7,2019
+Computer and electronic products,private,Manufacturing,Durable goods,1.2,2019
+"Electrical equipment, appliances, and components",private,Manufacturing,Durable goods,0.3,2019
+"Motor vehicles, bodies and trailers, and parts",private,Manufacturing,Durable goods,0.8,2019
+Other transportation equipment,private,Manufacturing,Durable goods,0.8,2019
+Furniture and related products,private,Manufacturing,Durable goods,0.1,2019
+Miscellaneous manufacturing,private,Manufacturing,Durable goods,0.4,2019
+Food and beverage and tobacco products,private,Manufacturing,Nondurable goods,1.3,2019
+Textile mills and textile product mills,private,Manufacturing,Nondurable goods,0.1,2019
+Apparel and leather and allied products,private,Manufacturing,Nondurable goods,0,2019
+Paper products,private,Manufacturing,Nondurable goods,0.3,2019
+Printing and related support activities,private,Manufacturing,Nondurable goods,0.2,2019
+Petroleum and coal products,private,Manufacturing,Nondurable goods,0.7,2019
+Chemical products,private,Manufacturing,Nondurable goods,1.7,2019
+Plastics and rubber products,private,Manufacturing,Nondurable goods,0.4,2019
+Wholesale trade,private,Wholesale trade,Wholesale trade,6,2019
+Motor vehicle and parts dealers,private,Retail trade,Retail trade,1.2,2019
+Food and beverage stores,private,Retail trade,Retail trade,0.8,2019
+General merchandise stores,private,Retail trade,Retail trade,0.7,2019
+Other retail,private,Retail trade,Retail trade,3.2,2019
+Air transportation,private,Transportation and warehousing,Transportation and warehousing,0.7,2019
+Rail transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2019
+Water transportation,private,Transportation and warehousing,Transportation and warehousing,0.1,2019
+Truck transportation,private,Transportation and warehousing,Transportation and warehousing,0.9,2019
+Transit and ground passenger transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2019
+Pipeline transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2019
+Other transportation and support activities,private,Transportation and warehousing,Transportation and warehousing,0.7,2019
+Warehousing and storage,private,Transportation and warehousing,Transportation and warehousing,0.3,2019
+"Publishing industries, except internet (includes software)",private,Information,Information,1.3,2019
+Motion picture and sound recording industries,private,Information,Information,0.4,2019
+Broadcasting and telecommunications,private,Information,Information,2.3,2019
+"Data processing, internet publishing, and other information services",private,Information,Information,1.3,2019
+"Federal Reserve banks, credit intermediation, and related activities",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3.4,2019
+"Securities, commodity contracts, and investments",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,1.3,2019
+Insurance carriers and related activities,private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,2.9,2019
+"Funds, trusts, and other financial vehicles",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,0,2019
+Real estate,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,11.9,2019
+Rental and leasing services and lessors of intangible assets,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,1.1,2019
+Legal services,private,Professional and business services,"Professional, scientific, and technical services",1.3,2019
+Computer systems design and related services,private,Professional and business services,"Professional, scientific, and technical services",1.8,2019
+"Miscellaneous professional, scientific, and technical services",private,Professional and business services,"Professional, scientific, and technical services",4.6,2019
+Management of companies and enterprises,private,Professional and business services,Management of companies and enterprises,1.9,2019
+Administrative and support services,private,Professional and business services,Administrative and waste management services,2.8,2019
+Waste management and remediation services,private,Professional and business services,Administrative and waste management services,0.3,2019
+Educational services,private,"Educational services, health care, and social assistance",Educational services,1.3,2019
+Ambulatory health care services,private,"Educational services, health care, and social assistance",Health care and social assistance,3.6,2019
+Hospitals,private,"Educational services, health care, and social assistance",Health care and social assistance,2.4,2019
+Nursing and residential care facilities,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2019
+Social assistance,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2019
+"Performing arts, spectator sports, museums, and related activities",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.7,2019
+"Amusements, gambling, and recreation industries",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.4,2019
+Accommodation,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.9,2019
+Food services and drinking places,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",2.3,2019
+"Other services, except government",private,"Other services, except government","Other services, except government",2.2,2019
+National defense,Government,Federal,General government,2,2019
+Nondefense,Government,Federal,General government,1.5,2019
+Government enterprises,Government,Federal,Government enterprises,0.3,2019
+General government,Government,State and local,State and local,7.7,2019
+Government enterprises,Government,State and local,State and local,0.7,2019
+Farms,private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.5,2020
+"Forestry, fishing, and related activities",private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.2,2020
+Oil and gas extraction,private,Mining,Mining,0.5,2020
+"Mining, except oil and gas",private,Mining,Mining,0.3,2020
+Support activities for mining,private,Mining,Mining,0.2,2020
+Utilities,private,Utilities,Utilities,1.6,2020
+Construction,private,Construction,Construction,4.5,2020
+Wood products,private,Manufacturing,Durable goods,0.2,2020
+Nonmetallic mineral products,private,Manufacturing,Durable goods,0.3,2020
+Primary metals,private,Manufacturing,Durable goods,0.3,2020
+Fabricated metal products,private,Manufacturing,Durable goods,0.7,2020
+Machinery,private,Manufacturing,Durable goods,0.7,2020
+Computer and electronic products,private,Manufacturing,Durable goods,1.3,2020
+"Electrical equipment, appliances, and components",private,Manufacturing,Durable goods,0.3,2020
+"Motor vehicles, bodies and trailers, and parts",private,Manufacturing,Durable goods,0.7,2020
+Other transportation equipment,private,Manufacturing,Durable goods,0.7,2020
+Furniture and related products,private,Manufacturing,Durable goods,0.1,2020
+Miscellaneous manufacturing,private,Manufacturing,Durable goods,0.4,2020
+Food and beverage and tobacco products,private,Manufacturing,Nondurable goods,1.4,2020
+Textile mills and textile product mills,private,Manufacturing,Nondurable goods,0.1,2020
+Apparel and leather and allied products,private,Manufacturing,Nondurable goods,0,2020
+Paper products,private,Manufacturing,Nondurable goods,0.3,2020
+Printing and related support activities,private,Manufacturing,Nondurable goods,0.2,2020
+Petroleum and coal products,private,Manufacturing,Nondurable goods,0.3,2020
+Chemical products,private,Manufacturing,Nondurable goods,1.8,2020
+Plastics and rubber products,private,Manufacturing,Nondurable goods,0.4,2020
+Wholesale trade,private,Wholesale trade,Wholesale trade,6.1,2020
+Motor vehicle and parts dealers,private,Retail trade,Retail trade,1.2,2020
+Food and beverage stores,private,Retail trade,Retail trade,0.9,2020
+General merchandise stores,private,Retail trade,Retail trade,0.8,2020
+Other retail,private,Retail trade,Retail trade,3.4,2020
+Air transportation,private,Transportation and warehousing,Transportation and warehousing,0.3,2020
+Rail transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2020
+Water transportation,private,Transportation and warehousing,Transportation and warehousing,0.1,2020
+Truck transportation,private,Transportation and warehousing,Transportation and warehousing,0.9,2020
+Transit and ground passenger transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2020
+Pipeline transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2020
+Other transportation and support activities,private,Transportation and warehousing,Transportation and warehousing,0.8,2020
+Warehousing and storage,private,Transportation and warehousing,Transportation and warehousing,0.4,2020
+"Publishing industries, except internet (includes software)",private,Information,Information,1.4,2020
+Motion picture and sound recording industries,private,Information,Information,0.4,2020
+Broadcasting and telecommunications,private,Information,Information,2.3,2020
+"Data processing, internet publishing, and other information services",private,Information,Information,1.5,2020
+"Federal Reserve banks, credit intermediation, and related activities",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3.6,2020
+"Securities, commodity contracts, and investments",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,1.5,2020
+Insurance carriers and related activities,private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3,2020
+"Funds, trusts, and other financial vehicles",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,0,2020
+Real estate,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,12.4,2020
+Rental and leasing services and lessors of intangible assets,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,1.1,2020
+Legal services,private,Professional and business services,"Professional, scientific, and technical services",1.3,2020
+Computer systems design and related services,private,Professional and business services,"Professional, scientific, and technical services",1.8,2020
+"Miscellaneous professional, scientific, and technical services",private,Professional and business services,"Professional, scientific, and technical services",4.6,2020
+Management of companies and enterprises,private,Professional and business services,Management of companies and enterprises,1.9,2020
+Administrative and support services,private,Professional and business services,Administrative and waste management services,2.8,2020
+Waste management and remediation services,private,Professional and business services,Administrative and waste management services,0.3,2020
+Educational services,private,"Educational services, health care, and social assistance",Educational services,1.2,2020
+Ambulatory health care services,private,"Educational services, health care, and social assistance",Health care and social assistance,3.6,2020
+Hospitals,private,"Educational services, health care, and social assistance",Health care and social assistance,2.5,2020
+Nursing and residential care facilities,private,"Educational services, health care, and social assistance",Health care and social assistance,0.8,2020
+Social assistance,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2020
+"Performing arts, spectator sports, museums, and related activities",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.5,2020
+"Amusements, gambling, and recreation industries",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.3,2020
+Accommodation,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.6,2020
+Food services and drinking places,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",1.9,2020
+"Other services, except government",private,"Other services, except government","Other services, except government",2.1,2020
+National defense,Government,Federal,General government,2.1,2020
+Nondefense,Government,Federal,General government,1.6,2020
+Government enterprises,Government,Federal,Government enterprises,0.3,2020
+General government,Government,State and local,State and local,8,2020
+Government enterprises,Government,State and local,State and local,0.7,2020
+Farms,private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.8,2021
+"Forestry, fishing, and related activities",private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.2,2021
+Oil and gas extraction,private,Mining,Mining,0.9,2021
+"Mining, except oil and gas",private,Mining,Mining,0.3,2021
+Support activities for mining,private,Mining,Mining,0.2,2021
+Utilities,private,Utilities,Utilities,1.6,2021
+Construction,private,Construction,Construction,4.3,2021
+Wood products,private,Manufacturing,Durable goods,0.3,2021
+Nonmetallic mineral products,private,Manufacturing,Durable goods,0.3,2021
+Primary metals,private,Manufacturing,Durable goods,0.3,2021
+Fabricated metal products,private,Manufacturing,Durable goods,0.6,2021
+Machinery,private,Manufacturing,Durable goods,0.7,2021
+Computer and electronic products,private,Manufacturing,Durable goods,1.2,2021
+"Electrical equipment, appliances, and components",private,Manufacturing,Durable goods,0.2,2021
+"Motor vehicles, bodies and trailers, and parts",private,Manufacturing,Durable goods,0.6,2021
+Other transportation equipment,private,Manufacturing,Durable goods,0.6,2021
+Furniture and related products,private,Manufacturing,Durable goods,0.1,2021
+Miscellaneous manufacturing,private,Manufacturing,Durable goods,0.4,2021
+Food and beverage and tobacco products,private,Manufacturing,Nondurable goods,1.3,2021
+Textile mills and textile product mills,private,Manufacturing,Nondurable goods,0.1,2021
+Apparel and leather and allied products,private,Manufacturing,Nondurable goods,0,2021
+Paper products,private,Manufacturing,Nondurable goods,0.3,2021
+Printing and related support activities,private,Manufacturing,Nondurable goods,0.2,2021
+Petroleum and coal products,private,Manufacturing,Nondurable goods,0.6,2021
+Chemical products,private,Manufacturing,Nondurable goods,1.9,2021
+Plastics and rubber products,private,Manufacturing,Nondurable goods,0.3,2021
+Wholesale trade,private,Wholesale trade,Wholesale trade,6,2021
+Motor vehicle and parts dealers,private,Retail trade,Retail trade,1.4,2021
+Food and beverage stores,private,Retail trade,Retail trade,0.8,2021
+General merchandise stores,private,Retail trade,Retail trade,0.8,2021
+Other retail,private,Retail trade,Retail trade,3.5,2021
+Air transportation,private,Transportation and warehousing,Transportation and warehousing,0.4,2021
+Rail transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2021
+Water transportation,private,Transportation and warehousing,Transportation and warehousing,0.1,2021
+Truck transportation,private,Transportation and warehousing,Transportation and warehousing,1,2021
+Transit and ground passenger transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2021
+Pipeline transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2021
+Other transportation and support activities,private,Transportation and warehousing,Transportation and warehousing,0.8,2021
+Warehousing and storage,private,Transportation and warehousing,Transportation and warehousing,0.4,2021
+"Publishing industries, except internet (includes software)",private,Information,Information,1.4,2021
+Motion picture and sound recording industries,private,Information,Information,0.4,2021
+Broadcasting and telecommunications,private,Information,Information,2.1,2021
+"Data processing, internet publishing, and other information services",private,Information,Information,1.7,2021
+"Federal Reserve banks, credit intermediation, and related activities",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3.5,2021
+"Securities, commodity contracts, and investments",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,1.5,2021
+Insurance carriers and related activities,private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,2.7,2021
+"Funds, trusts, and other financial vehicles",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,0.1,2021
+Real estate,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,12,2021
+Rental and leasing services and lessors of intangible assets,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,1.2,2021
+Legal services,private,Professional and business services,"Professional, scientific, and technical services",1.3,2021
+Computer systems design and related services,private,Professional and business services,"Professional, scientific, and technical services",1.8,2021
+"Miscellaneous professional, scientific, and technical services",private,Professional and business services,"Professional, scientific, and technical services",4.7,2021
+Management of companies and enterprises,private,Professional and business services,Management of companies and enterprises,1.9,2021
+Administrative and support services,private,Professional and business services,Administrative and waste management services,2.8,2021
+Waste management and remediation services,private,Professional and business services,Administrative and waste management services,0.3,2021
+Educational services,private,"Educational services, health care, and social assistance",Educational services,1.2,2021
+Ambulatory health care services,private,"Educational services, health care, and social assistance",Health care and social assistance,3.6,2021
+Hospitals,private,"Educational services, health care, and social assistance",Health care and social assistance,2.4,2021
+Nursing and residential care facilities,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2021
+Social assistance,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2021
+"Performing arts, spectator sports, museums, and related activities",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.5,2021
+"Amusements, gambling, and recreation industries",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.4,2021
+Accommodation,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.7,2021
+Food services and drinking places,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",2.2,2021
+"Other services, except government",private,"Other services, except government","Other services, except government",2.1,2021
+National defense,Government,Federal,General government,2,2021
+Nondefense,Government,Federal,General government,1.5,2021
+Government enterprises,Government,Federal,Government enterprises,0.3,2021
+General government,Government,State and local,State and local,7.5,2021
+Government enterprises,Government,State and local,State and local,0.6,2021
+Farms,private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.9,2022
+"Forestry, fishing, and related activities",private,"Agriculture, forestry, fishing, and hunting","Agriculture, forestry, fishing, and hunting",0.2,2022
+Oil and gas extraction,private,Mining,Mining,1.3,2022
+"Mining, except oil and gas",private,Mining,Mining,0.3,2022
+Support activities for mining,private,Mining,Mining,0.2,2022
+Utilities,private,Utilities,Utilities,1.7,2022
+Construction,private,Construction,Construction,4.2,2022
+Wood products,private,Manufacturing,Durable goods,0.2,2022
+Nonmetallic mineral products,private,Manufacturing,Durable goods,0.3,2022
+Primary metals,private,Manufacturing,Durable goods,0.4,2022
+Fabricated metal products,private,Manufacturing,Durable goods,0.6,2022
+Machinery,private,Manufacturing,Durable goods,0.7,2022
+Computer and electronic products,private,Manufacturing,Durable goods,1.2,2022
+"Electrical equipment, appliances, and components",private,Manufacturing,Durable goods,0.2,2022
+"Motor vehicles, bodies and trailers, and parts",private,Manufacturing,Durable goods,0.6,2022
+Other transportation equipment,private,Manufacturing,Durable goods,0.7,2022
+Furniture and related products,private,Manufacturing,Durable goods,0.1,2022
+Miscellaneous manufacturing,private,Manufacturing,Durable goods,0.4,2022
+Food and beverage and tobacco products,private,Manufacturing,Nondurable goods,1.2,2022
+Textile mills and textile product mills,private,Manufacturing,Nondurable goods,0.1,2022
+Apparel and leather and allied products,private,Manufacturing,Nondurable goods,0,2022
+Paper products,private,Manufacturing,Nondurable goods,0.3,2022
+Printing and related support activities,private,Manufacturing,Nondurable goods,0.2,2022
+Petroleum and coal products,private,Manufacturing,Nondurable goods,0.8,2022
+Chemical products,private,Manufacturing,Nondurable goods,1.9,2022
+Plastics and rubber products,private,Manufacturing,Nondurable goods,0.4,2022
+Wholesale trade,private,Wholesale trade,Wholesale trade,6,2022
+Motor vehicle and parts dealers,private,Retail trade,Retail trade,1.3,2022
+Food and beverage stores,private,Retail trade,Retail trade,0.8,2022
+General merchandise stores,private,Retail trade,Retail trade,0.8,2022
+Other retail,private,Retail trade,Retail trade,3.4,2022
+Air transportation,private,Transportation and warehousing,Transportation and warehousing,0.6,2022
+Rail transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2022
+Water transportation,private,Transportation and warehousing,Transportation and warehousing,0.1,2022
+Truck transportation,private,Transportation and warehousing,Transportation and warehousing,1,2022
+Transit and ground passenger transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2022
+Pipeline transportation,private,Transportation and warehousing,Transportation and warehousing,0.2,2022
+Other transportation and support activities,private,Transportation and warehousing,Transportation and warehousing,0.8,2022
+Warehousing and storage,private,Transportation and warehousing,Transportation and warehousing,0.4,2022
+"Publishing industries, except internet (includes software)",private,Information,Information,1.4,2022
+Motion picture and sound recording industries,private,Information,Information,0.4,2022
+Broadcasting and telecommunications,private,Information,Information,2,2022
+"Data processing, internet publishing, and other information services",private,Information,Information,1.6,2022
+"Federal Reserve banks, credit intermediation, and related activities",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,3.3,2022
+"Securities, commodity contracts, and investments",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,1.4,2022
+Insurance carriers and related activities,private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,2.7,2022
+"Funds, trusts, and other financial vehicles",private,"Finance, insurance, real estate, rental, and leasing",Finance and insurance,0.1,2022
+Real estate,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,12,2022
+Rental and leasing services and lessors of intangible assets,private,"Finance, insurance, real estate, rental, and leasing",Real estate and rental and leasing,1.2,2022
+Legal services,private,Professional and business services,"Professional, scientific, and technical services",1.3,2022
+Computer systems design and related services,private,Professional and business services,"Professional, scientific, and technical services",1.8,2022
+"Miscellaneous professional, scientific, and technical services",private,Professional and business services,"Professional, scientific, and technical services",4.8,2022
+Management of companies and enterprises,private,Professional and business services,Management of companies and enterprises,1.9,2022
+Administrative and support services,private,Professional and business services,Administrative and waste management services,2.9,2022
+Waste management and remediation services,private,Professional and business services,Administrative and waste management services,0.3,2022
+Educational services,private,"Educational services, health care, and social assistance",Educational services,1.1,2022
+Ambulatory health care services,private,"Educational services, health care, and social assistance",Health care and social assistance,3.5,2022
+Hospitals,private,"Educational services, health care, and social assistance",Health care and social assistance,2.3,2022
+Nursing and residential care facilities,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2022
+Social assistance,private,"Educational services, health care, and social assistance",Health care and social assistance,0.7,2022
+"Performing arts, spectator sports, museums, and related activities",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.6,2022
+"Amusements, gambling, and recreation industries",private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.4,2022
+Accommodation,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",0.8,2022
+Food services and drinking places,private,"Arts, entertainment, recreation, accommodation, and food services","Arts, entertainment, and recreation",2.3,2022
+"Other services, except government",private,"Other services, except government","Other services, except government",2.1,2022
+National defense,Government,Federal,General government,1.9,2022
+Nondefense,Government,Federal,General government,1.4,2022
+Government enterprises,Government,Federal,Government enterprises,0.3,2022
+General government,Government,State and local,State and local,7.1,2022
+Government enterprises,Government,State and local,State and local,0.6,2022
