@@ -7,11 +7,13 @@ function TableauEmbed() {
     const ref2 = useRef(null);
     const ref3 = useRef(null);
     const ref4 = useRef(null);
+    const ref5 = useRef(null);
 
-    const url1 = "https://public.tableau.com/views/unemp_2_17017078712220/Dashboard1";
-    const url2 = "https://public.tableau.com/views/DataViz_17017190049000/Sheet1";
-    const url3 = "https://public.tableau.com/shared/TB9QT6PK3";
+    const url5 = "https://public.tableau.com/views/unemp_2_17017078712220/Dashboard1?:toolbar=no&:showShareOptions=false";
+    const url2 = "https://public.tableau.com/shared/Y7WNJ9BMW";
+    const url3 = "https://public.tableau.com/shared/7T89RR9G4";
     const url4 = "https://public.tableau.com/views/OTTsubscriptiontrendsyear/Dashboard1";
+    const url1 = "https://public.tableau.com/views/Industry_GDP/Dashboard1";
 
     const options = {
         device: "desktop",
@@ -22,6 +24,7 @@ function TableauEmbed() {
         let viz2 = null;
         let viz3 = null;
         let viz4 = null;
+        let viz5 = null;
 
         const initViz = () => {
             // Ensure that the previous viz is cleaned up before creating a new one
@@ -40,11 +43,15 @@ function TableauEmbed() {
             if (viz4) {
                 viz4.dispose();
             }
+            if (viz5) {
+                viz5.dispose();
+            }
 
             viz1 = new tableau.Viz(ref1.current, url1, options);
             viz2 = new tableau.Viz(ref2.current, url2, options);
             viz3 = new tableau.Viz(ref3.current, url3, options);
             viz4 = new tableau.Viz(ref4.current, url4, options);
+            viz5 = new tableau.Viz(ref5.current, url5, options);
         };
 
         initViz(); // Call initViz once when the component mounts
@@ -66,8 +73,12 @@ function TableauEmbed() {
             if (viz4) {
                 viz4.dispose();
             }
+
+            if (viz5) {
+                viz5.dispose();
+            }
         };
-    }, [url1, url2, url3, url4, options]);
+    }, [url1, url2, url3, url4, url5, options]);
 
     return (
         <div>
@@ -82,6 +93,9 @@ function TableauEmbed() {
 
             <p>Viz4</p>
             <div ref={ref4}></div>
+
+            <p>Viz5</p>
+            <div ref={ref5}></div>
         </div>
     );
 }

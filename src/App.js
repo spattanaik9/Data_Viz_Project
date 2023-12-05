@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-// import parseCSV  from './CSVHandler';
 import Papa from 'papaparse';
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
-import { scaleQuantize } from "d3-scale";
+
 import TableauEmbed from './components/TableauEmbed';
-import GdpComponent from './components/GdpComponent';
-  
+
+
 const App = () => {
 
   const [selectedVariables, setSelectedVariables] = useState({ first: 'gdp', second: 'mental_illness'});
@@ -18,6 +16,12 @@ const App = () => {
     } else {
       setSelectedVariables({ ...selectedVariables, second: e.target.value });
     }
+  };
+
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const handleButtonClick = (category) => {
+    setSelectedCategory(category);
   };
 
   const data01 = [
@@ -123,18 +127,6 @@ const App = () => {
 
       <div>
         <TableauEmbed />
-      </div>
-
-      <h1>GDP - Industry</h1>
-      <div className="chart-container">
-        <div className="chart">
-          <h2>Private Sector</h2>
-          <GdpComponent data={data} sector="private" />
-        </div>
-        <div className="chart">
-          <h2>Government Sector</h2>
-          <GdpComponent data={data} sector="Government" />
-        </div>
       </div>
       
     </div>
