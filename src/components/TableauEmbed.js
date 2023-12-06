@@ -57,7 +57,7 @@ function TableauEmbed() {
         initViz(); // Call initViz once when the component mounts
 
         return () => {
-            // Cleanup when the component unmounts
+            //Cleanup when the component unmounts
             if (viz1) {
                 viz1.dispose();
             }
@@ -83,19 +83,19 @@ function TableauEmbed() {
     return (
         <div>
             <p>US Statewise Unemployment 2013 - 2023</p>
-            <div ref={ref1}></div>
+            <div className="tableau-container" ref={ref1}></div>
 
             <p>Viz2</p>
-            <div ref={ref2}></div>
+            <div className="tableau-container" ref={ref2}></div>
 
             <p>Viz3</p>
-            <div ref={ref3}></div>
+            <div className="tableau-container" ref={ref3}></div>
 
             <p>Viz4</p>
-            <div ref={ref4}></div>
+            <div className="tableau-container" ref={ref4}></div>
 
             <p>Viz5</p>
-            <div ref={ref5}></div>
+            <div className="tableau-container" ref={ref5}></div>
         </div>
     );
 }

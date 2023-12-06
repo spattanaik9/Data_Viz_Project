@@ -6,9 +6,10 @@ import Papa from 'papaparse';
 import TableauEmbed from './components/TableauEmbed';
 
 
+
 const App = () => {
 
-  const [selectedVariables, setSelectedVariables] = useState({ first: 'gdp', second: 'mental_illness'});
+  const [selectedVariables, setSelectedVariables] = useState({ first: 'GDP', second: 'Personal_Income'});
   
   const handleVariableChange = (e, position) => {
     if (position === 'first'){
@@ -18,52 +19,102 @@ const App = () => {
     }
   };
 
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const formatNumber = (value) => {
+    const suffixes = ["", "K", "M", "B", "T"];
+    let suffixNum = 0;
 
-  const handleButtonClick = (category) => {
-    setSelectedCategory(category);
+    while (value >= 1000) {
+      value /= 1000;
+      suffixNum++;
+    }
+
+    // Format the value with the appropriate suffix
+    const newValue = value.toPrecision(3);
+    return newValue + suffixes[suffixNum];
   };
 
   const data01 = [
+    
+    {
+      name: '2015',
+      GDP: 1304097000,
+      Netflix_Subscribers: 99000000,
+      Unemployment_Rate: 5.28,
+      Personal_Income: 72090,
+      Depression_Percentage: 19.6,
+      Happiness_Index: 7.12,
+      Inflation: 0.10,
+    },
+    {
+      name: '2016',
+      GDP: 1304097000, 
+      Netflix_Subscribers: 99000000,
+      Unemployment_Rate: 4.87,
+      Personal_Income: 72090,
+      Depression_Percentage: 20.1,
+      Happiness_Index: 7.10,
+      Inflation: 1.30,
+    },
     {
     name: '2017',
-    gdp: 4000,
-    mental_illness: 45641,
-    netflix_subscribers: 10000,
-    unemployment_rate: 5,
-    personal_income: 45000,
+    GDP: 1304097000,
+    Netflix_Subscribers: 99000000,
+    Unemployment_Rate: 4.36,
+    Personal_Income: 72090,
+    Depression_Percentage: 20.7,
+    Happiness_Index: 6.99,
+    Inflation: 2.10,
   },
   {
     name: '2018',
-    gdp: 4000,
-    mental_illness: 47132,
-    netflix_subscribers: 14000,
-    unemployment_rate: 15,
-    personal_income: 50000,
+    GDP: 1393774000,
+    Netflix_Subscribers: 124300000,
+    Unemployment_Rate: 3.90,
+    Personal_Income: 73030,
+    Depression_Percentage: 22.0,
+    Happiness_Index: 6.89,
+    Inflation: 2.40,
   },
   {
     name: '2019',
-    gdp: 4000,
-    mental_illness: 49564,
-    netflix_subscribers: 80000,
-    unemployment_rate: 20,
-    personal_income: 90000,
+    GDP: 1460160000,
+    Netflix_Subscribers: 151500000,
+    Unemployment_Rate: 3.67,
+    Personal_Income: 78250,
+    Depression_Percentage: 21.6,
+    Happiness_Index: 6.89,
+    Inflation: 1.80,
+
   },
   {
     name: '2020',
-    gdp: 4000,
-    mental_illness: 0,
-    netflix_subscribers: 100000,
-    unemployment_rate: 30,
-    personal_income: 450000,
+    GDP: 863658000,
+    Netflix_Subscribers: 192900000,
+    Unemployment_Rate: 8.05,
+    Personal_Income: 76660,
+    Depression_Percentage: 22.9,
+    Happiness_Index: 6.95,
+    Inflation: 1.20,
   },
   {
     name: '2021',
-    gdp: 4000,
-    mental_illness: 57804,
-    netflix_subscribers: 10000000,
-    unemployment_rate: 5,
-    personal_income: 450000,
+    GDP: 1189181000,
+    Netflix_Subscribers: 219700000,
+    Unemployment_Rate: 5.35,
+    Personal_Income: 76330,
+    Depression_Percentage: 28.6,
+    Happiness_Index: 6.98,
+    Inflation: 4.70,
+  },
+  {
+    name: '2022',
+    GDP: 1682774000,
+    Netflix_Subscribers: 230700000,
+    Unemployment_Rate: 3.61,
+    Personal_Income: 74580,
+    Depression_Percentage: 26.9,
+    Happiness_Index: 6.89,
+    Inflation: 8.00,
   },
   ];
 
@@ -91,38 +142,76 @@ const App = () => {
         </p>
       </div>
       
-      <div>
-      <select value={selectedVariables.first} onChange={(e) => handleVariableChange(e, 'first')}>
-        <option value="gdp">GDP</option>
-        <option value="mental_illness">Mental Illness</option>
-        <option value="netflix_subscribers">Netflix Subscribers</option>
-        <option value="unemployment_rate">Unemployment Rate</option>
-        <option value="personal_income">Personal Income</option>
-      </select>
-      <select value={selectedVariables.second} onChange={(e) => handleVariableChange(e, 'second')}>
-        <option value="gdp">GDP</option>
-        <option value="mental_illness">Mental Illness</option>
-        <option value="netflix_subscribers">Netflix Subscribers</option>
-        <option value="unemployment_rate">Unemployment Rate</option>
-        <option value="personal_income">Personal Income</option>
-      </select> 
-      </div>
-      <div>
-      <LineChart
-          width={1000}
-          height={500}
-          data={data01}  
-          
+      <div className="chart-container">
+        <div className="dropdown-container" >
+        
+        <select className="btn btn-lg btn-outline-info text-light dropdown-toggle"
+          value={selectedVariables.first} 
+          onChange={(e) => handleVariableChange(e, 'first')}
         >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis yAxisId="left" />
-          <YAxis yAxisId="right" orientation="right" />
-          <Tooltip />
-          <Legend />
-          <Line yAxisId="left" type="monotone" dataKey={selectedVariables.first} stroke="#8884d8" activeDot={{ r: 8 }} />
-          <Line yAxisId="right" type="monotone" dataKey={selectedVariables.second} stroke="#82ca9d" />
-        </LineChart>
+
+          <option value="GDP">GDP</option>  
+          <option value="Netflix_Subscribers">Netflix Subscribers</option>
+          <option value="Unemployment_Rate">Unemployment Rate</option>
+          <option value="Personal_Income">Personal Income</option>
+          <option value="Depression_Percentage">Depression Percentage</option>
+          <option value="Happiness_Index">Happiness Index</option>
+          <option value="Inflation">Inflation</option>
+          
+        
+
+        </select>
+      
+        <select className="btn btn-lg btn-outline-info text-light"
+          value={selectedVariables.second} 
+          onChange={(e) => handleVariableChange(e, 'second')}
+        >
+
+          <option value="GDP">GDP</option>
+          <option value="Netflix_Subscribers">Netflix Subscribers</option>
+          <option value="Unemployment_Rate">Unemployment Rate</option>
+          <option value="Personal_Income">Personal Income</option>
+          <option value="Depression_Percentage">Depression Percentage</option>
+          <option value="Happiness_Index">Happiness Index</option>
+          <option value="Inflation">Inflation</option> 
+        </select> 
+        </div>
+      
+        <div className="line-chart">
+         <LineChart
+          width={1200}
+          height={600}
+          data={data01}  
+          margin={{ top: 100, right: 100, left: 100, bottom: 100 }}
+          
+          >
+          <CartesianGrid strokeDasharray="3 3" stroke="#383323"/>
+          <XAxis 
+            dataKey="name"
+            label={{ value: "Year", fontSize: 24, fill: 'white', dy:50, }} 
+            tick={{ fontSize: 22, fill: 'white' }} 
+          />
+          <YAxis 
+            yAxisId="left" 
+            label={{ value: selectedVariables.first, angle: -90, position: 'insideLeft', fontSize: 24, fill: '#8884d8', offset:-30, textAnchor:'middle', dy:100, }}
+            tickFormatter={(value) => formatNumber(value)} 
+            tick={{ fontSize: 22, fill: 'white' }}  
+          />
+          <YAxis 
+            yAxisId="right" 
+            label={{ value: selectedVariables.second, angle: +90, position: 'insideRight', fontSize: 24, fill: '#82ca9d', offset:-30, textAnchor:'middle', dy:100 }}
+            tickFormatter={(value) => formatNumber(value)}
+            tick={{ fontSize: 22, fill: 'white' }} 
+            orientation="right" />
+          <Tooltip 
+            formatter={(value, name) => [formatNumber(value), name]}
+            contentStyle={{backgroundColor: 'transparent', color: 'white', border:'none', textAlign: 'left', fontSize:'24px'}} 
+            />
+          
+          <Line yAxisId="left" type="monotone" dataKey={selectedVariables.first} stroke="#8884d8" strokeWidth={3} activeDot={{ r: 8 }} />
+          <Line yAxisId="right" type="monotone" dataKey={selectedVariables.second} stroke="#82ca9d" strokeWidth={3} activeDot={{ r: 8 }}/>
+          </LineChart>
+          </div>
       </div>
 
       <div>
