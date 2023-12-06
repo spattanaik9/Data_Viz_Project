@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
+
 const { tableau } = window;
 
 function TableauEmbed() {
@@ -82,20 +83,28 @@ function TableauEmbed() {
 
     return (
         <div>
-            <p>US Statewise Unemployment 2013 - 2023</p>
+            <p className="section-heading">Economic Trends</p>
             <div className="tableau-container" ref={ref1}></div>
+            <br/>
 
-            <p>Viz2</p>
-            <div className="tableau-container" ref={ref2}></div>
-
-            <p>Viz3</p>
-            <div className="tableau-container" ref={ref3}></div>
-
-            <p>Viz4</p>
-            <div className="tableau-container" ref={ref4}></div>
-
-            <p>Viz5</p>
             <div className="tableau-container" ref={ref5}></div>
+
+            <p className="section-heading">Mental Health Insights</p>
+            <div className="tableau-container" ref={ref3}>
+            </div>
+            <br/>
+            <br/>
+
+            <img src='lifetime depression.png'
+                style={{ width: '100%', maxWidth: '800px', margin: '10px auto' }}
+            />
+            
+            
+
+            <p className="section-heading">OTT Insights</p>
+            <div className="tableau-container" ref={ref4}></div>
+            <br/>
+            <div className="tableau-container" ref={ref2}></div>
         </div>
     );
 }

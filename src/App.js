@@ -136,13 +136,17 @@ const App = () => {
     
     <div className="App">
       <div>
-        <h1>The Streaming Balance: Unveiling Economic Trends, OTT Platforms, and Mental Health Insights</h1>
-        <p>
-          Exploring data trends across various socioeconomic factors from 2016 to 2022 to understand the impact of the COVID-19 pandemic on key indicators like GDP, mental health, employment, and more. 
-        </p>
+        <h1>The Streaming Balance</h1>
+        <h1 style={{fontSize:35}}>Unveiling Economic Trends, OTT Platforms, and Mental Health Insights</h1>
+        
       </div>
+     
+
       
       <div className="chart-container">
+      <p style={{ fontFamily: "'Times New Roman', Times, serif", padding: '50px', fontSize:30, color: 'rgb(158, 236, 239)', textAlign:'left'}}>
+          Exploring data trends across various socioeconomic factors from 2015 to 2022 to understand the impact of the COVID-19 pandemic on key indicators like GDP, mental health, employment, and more. 
+        </p>
         <div className="dropdown-container" >
         
         <select className="btn btn-lg btn-outline-info text-light dropdown-toggle"
@@ -179,8 +183,8 @@ const App = () => {
       
         <div className="line-chart">
          <LineChart
-          width={1200}
-          height={600}
+          width={1000}
+          height={500}
           data={data01}  
           margin={{ top: 100, right: 100, left: 100, bottom: 100 }}
           
