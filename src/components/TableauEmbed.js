@@ -117,7 +117,7 @@ function TableauEmbed() {
         <div>
             <p className="section-heading">Economic Trends</p>
             <div className="chart-container">
-            <p style={{ fontFamily: "'Times New Roman', Times, serif", fontSize:25, color: 'rgb(158, 236, 239)', textAlign:'left'}}>
+            <p className="custom-paragraph">
             This chart visually represents the proportionate contribution of different industries, expressed as a percentage of the Gross Domestic Product (GDP) over the past six years. 
             <br/><br/>
             It offers insights into how individual industries have shaped the overall economic landscape. Examining the percentages for each year allows us to discern patterns and variations in the value added by industries from 2017 to 2022.
@@ -126,7 +126,7 @@ function TableauEmbed() {
             </div>
             <br/>
             <div className="chart-container">
-            <p style={{ fontFamily: "'Times New Roman', Times, serif", fontSize:25, color: 'rgb(158, 236, 239)', textAlign:'left'}}>
+            <p className="custom-paragraph">
             This choropleth map shows the dynamic landscape of unemployment rates across U.S. states from 2013 to 2023. 
             <br/><br/>
             As we explore the map, valuable insights into economic shifts and regional disparities that have unfolded over the past decade can be gained. Patterns and trends become evident, capturing the ebb and flow of employment conditions across the United States during this period.
@@ -138,7 +138,7 @@ function TableauEmbed() {
             <div className="chart-container">
             <div className="tableau-container" ref={ref3}>
             </div>
-            <p style={{ fontFamily: "'Times New Roman', Times, serif", fontSize:25, color: 'rgb(158, 236, 239)', textAlign:'left'}}>
+            <p className="custom-paragraph">
             Explore the changing happiness landscape in the United States with this choropleth map, comparing the top 10 happiest and bottom 10 happiest states in the pre-pandemic year 2018 to the post-pandemic year 2022.
             </p>
             </div>
