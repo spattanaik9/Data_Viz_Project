@@ -118,14 +118,18 @@ function TableauEmbed() {
             <p className="section-heading">Economic Trends</p>
             <div className="chart-container">
             <p style={{ fontFamily: "'Times New Roman', Times, serif", fontSize:25, color: 'rgb(158, 236, 239)', textAlign:'left'}}>
-                This analysis dissects the impact on various industries, revealing the percentage contributions of each sector to the overall GDP landscape.
+            This chart visually represents the proportionate contribution of different industries, expressed as a percentage of the Gross Domestic Product (GDP) over the past six years. 
+            <br/><br/>
+            It offers insights into how individual industries have shaped the overall economic landscape. Examining the percentages for each year allows us to discern patterns and variations in the value added by industries from 2017 to 2022.
             </p>
             <div className="tableau-container" ref={ref1}> </div>
             </div>
             <br/>
             <div className="chart-container">
             <p style={{ fontFamily: "'Times New Roman', Times, serif", fontSize:25, color: 'rgb(158, 236, 239)', textAlign:'left'}}>
-            This choropleth dynamically illustrates the fluctuation of state-level unemployment rates from 2013 to 2023, offering users the flexibility to select specific years or play through the entire decade for a comprehensive view of the evolving employment landscape.
+            This choropleth map shows the dynamic landscape of unemployment rates across U.S. states from 2013 to 2023. 
+            <br/><br/>
+            As we explore the map, valuable insights into economic shifts and regional disparities that have unfolded over the past decade can be gained. Patterns and trends become evident, capturing the ebb and flow of employment conditions across the United States during this period.
             </p>
             <div className="tableau-container" ref={ref5}></div>
             </div>
@@ -161,10 +165,22 @@ function TableauEmbed() {
             
             <p className="section-heading">OTT Insights</p>
             <div className="chart-container">
-                <p className="custom-paragraph">This bar chart visually captures the watchtime trends of OTT platforms in the United States from 2018 to 2022, providing a clear snapshot of the evolving user preferences over the specified time period.</p>
+                <p className="custom-paragraph">
+                It is anticipated that the duration of time spent by Americans engaging in subscription over-the-top (OTT) video will steadily rise each year. 
+                <br/><br/>
+                In 2018, the average daily usage time was 44 minutes, whereas in 2022, it increase to 70 minutes. 
+                <br/><br/>
+                The growth in the usage time for 2020 was 62 minutes per day, which can be partly attributed to the COVID-19 epidemic, leading to an increase in the amount of time people spend at home.
+                </p>
             <div className="tableau-container" ref={ref4}></div>
             </div>
-            <br/>
+            
+
+            <div className="chart-container">
+                <p className="custom-paragraph">The number of users of OTT (Over-The-Top) video services in the United States from 2017 to 2022 has shown a significant increase. 
+                    <br/><br/>
+                    This graphical representation provides a clear picture of the changing digital media landscape and the growing trend of online streaming platforms. It highlights the surge in OTT viewership over the years, which is an indication of the increasing adoption of these platforms by users.
+                </p>
             <div className="line-chart">
             <LineChart
                 width={1000}
@@ -197,8 +213,17 @@ function TableauEmbed() {
                 
             </LineChart>
             </div>
-            <br/>
+            </div>
+            
+
+            <div className="chart-container">
+                <p className="custom-paragraph">
+                This data presents the usage distribution of Over-the-Top (OTT) platforms, including popular services such as Netflix, Prime Video, Hulu, and others. It displays the percentage split between male and female viewers, highlighting how different OTT platforms attract and engage audiences. 
+                <br/><br/>
+                This information helps to distinguish the specific preferences of men and women when it comes to digital streaming.
+                </p>
             <div className="tableau-container" ref={ref2}></div>
+            </div>
         </div>
     );
 }
