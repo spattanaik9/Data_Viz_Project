@@ -239,12 +239,13 @@ const App = () => {
           </LineChart>
           </div>
 
-          <p className="custom-paragraph">
+          
+      </div>
+      <p className="custom-paragraph">
           We explore data trends from 2015 to 2022 on various social factors to better understand how the COVID-19 pandemic has affected critical indicators such as the economy, mental health, and streaming media. 
           <br/><br/>
           Our aim is to gain valuable insights into the pandemic's impact on society. 
         </p>
-      </div>
 
       <div>
         <TableauEmbed />

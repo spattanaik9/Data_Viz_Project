@@ -146,7 +146,7 @@ function TableauEmbed() {
             <br/>
 
            <div className="chart-container"> 
-            <img src='depression_rate.png'
+            <img src='depression_rate.png' 
                 style={{ width: '100%', maxWidth: '800px', margin: '10px auto', border:'2px solid #000' , borderRadius: '8px'}}
             />
             <p className="custom-paragraph">
